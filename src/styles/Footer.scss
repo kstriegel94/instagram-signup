@@ -1,0 +1,27 @@
+.footerContainer {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'BlinkMacSystemFont';
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.footerLinks {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerLinks a {
+    text-decoration: none;
+    padding: 10px;
+    color: #003569;
+}
+
+.copyRight {
+    margin-top: 6px;
+    color: #999;
+}

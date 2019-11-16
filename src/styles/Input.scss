@@ -1,0 +1,27 @@
+input {
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #262626;
+    width: 100%;
+    outline: none;
+    background-color: #fafafa;
+    height: 39px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #efefef;
+    padding-left: 9px;
+}
+
+input:focus {
+    border-color: #999;
+}
+
+.inputTitle {
+    color: #999;
+    font-size: 12px;
+    margin: 12px 10px;
+}
+
+.inputContainer {
+    margin: 0 40px 6px;
+}

@@ -1,0 +1,23 @@
+
+.facebookButton, .signUpButton {
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #efefef;
+    box-sizing: border-box;
+    color: #fff;
+    width: 100%;
+    outline: none;
+    background-color: #3897f0;
+    height: 33px;
+    padding-left: 9px;
+}
+
+.facebookButtonText, .signUpButtonText {
+    font-size: 14px;
+}
+
+.buttonContainer {
+    margin: 0 40px 6px;
+    padding-top: 10px;
+}
