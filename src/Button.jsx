@@ -8,7 +8,7 @@ class Button extends React.Component {
         if (this.props.fb) {
             return (
                 <div className="buttonContainer">
-                    <button className="facebookButton">
+                    <button type="button" className="facebookButton" onClick={this.props.onClick}>
                     <FontAwesomeIcon icon={faFacebookSquare} size="lg" className="fbIcon"/>
                     <span className="facebookButtonText"> Log in with Facebook</span>
                     </button>
@@ -17,7 +17,7 @@ class Button extends React.Component {
         } else {
             return (
                 <div className="buttonContainer">
-                    <button className="signUpButton">
+                    <button type="button" className="signUpButton" onClick={this.props.onClick}>
                     <span className="signUpButtonText">Sign up</span>
                     </button>
                 </div>
